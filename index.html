@@ -210,6 +210,98 @@
 
 </div>
 
+<!-- POPUP AVISO -->
+<div id="popupAviso" style="
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.65);
+display:flex;
+align-items:center;
+justify-content:center;
+z-index:9999;
+font-family:Arial, sans-serif;
+">
+
+<div style="
+background:#ffffff;
+max-width:640px;
+width:90%;
+border-radius:10px;
+box-shadow:0 10px 35px rgba(0,0,0,0.35);
+padding:30px;
+position:relative;
+">
+
+<button onclick="fecharPopup()" style="
+position:absolute;
+top:10px;
+right:15px;
+background:none;
+border:none;
+font-size:22px;
+cursor:pointer;
+color:#555;
+font-weight:bold;
+">
+✕
+</button>
+
+<h2 style="
+margin-top:0;
+color:#0b3d91;
+font-size:22px;
+">
+Cadastro Emergencial – Banco de Talentos
+</h2>
+
+<p style="line-height:1.6; font-size:15px;">
+
+Informamos que está aberto o <strong>Cadastro Emergencial Centralizado no Banco de Talentos</strong> 
+para inscrição de <strong>professores tutores – Anos Finais</strong>, no período de 
+<strong>04/03 a 13/03</strong>.
+</p>
+
+<p style="line-height:1.6; font-size:15px;">
+Ressaltamos que, no Cadastro Emergencial, também pode se inscrever o 
+<strong>candidato sem vínculo e/ou sem confirmação de participação no processo de atribuição de aulas e classes 2026</strong>.
+</p>
+
+<p style="line-height:1.6; font-size:15px;">
+As UREs com <strong>Edital 01/26</strong>, ainda em aberto para Professor Tutor – Anos Finais, poderão utilizar os candidatos inscritos nesse cadastro para preenchimento das vagas. 
+Caso as vagas não sejam preenchidas, será utilizado o <strong>Cadastro Emergencial Centralizado</strong> para complementação.
+</p>
+
+<div style="text-align:center; margin-top:25px;">
+
+<a href="https://bancodetalentos.educacao.sp.gov.br/" target="_blank"
+style="
+background:#00703c;
+color:white;
+padding:12px 22px;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+font-size:15px;
+display:inline-block;
+">
+Acessar Banco de Talentos
+</a>
+
+</div>
+
+</div>
+</div>
+
+<script>
+function fecharPopup(){
+document.getElementById("popupAviso").style.display="none";
+}
+</script>
+
+
 
 
 
